@@ -1,0 +1,65 @@
+.special-offer-content-box2 {
+  //   max-width: $content-width;
+  //   min-height: 287px;
+  max-width: 510px;
+  min-height: 287px;
+  //   background-color: antiquewhite;
+  display: flex;
+  position: relative;
+  margin-bottom: 37px;
+
+  .special-offer-image {
+    width: 199px;
+    height: 287px;
+    background-color: beige;
+    overflow: hidden;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  .special-offer-text-box {
+    position: absolute;
+    margin-left: 220px;
+    .special-offer-title {
+      h1 {
+        font-family: Nova;
+        font-size: 30px;
+      }
+      hr {
+        border-top: solid 1px black;
+        width: 171px;
+        margin-bottom: 36px;
+        margin-top: -15px;
+      }
+    }
+    .special-offer-discount-text {
+      font-family: Nova;
+      color: #ff7d38;
+      font-style: thin;
+      font-size: 15px;
+      margin-left: 190px;
+      margin-top: -70px;
+    }
+    .special-offer-paragraph {
+      max-width: 290px;
+      min-height: 131px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 16px;
+    }
+    .learnmore {
+      position: absolute;
+      margin-top: 40px;
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  .special-offer-content-box2 {
+    width: 200px;
+    flex-direction: column;
+    min-height: 300px;
+    margin-left: 20px;
+  }
+}

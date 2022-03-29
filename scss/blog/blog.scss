@@ -1,0 +1,60 @@
+.title {
+  max-width: $content-width;
+  height: 50px;
+  margin-bottom: 30px;
+
+  hr {
+    width: 106px;
+  }
+}
+
+.blog-post-container {
+  .blog-post-1 {
+    margin-bottom: 100px;
+    .calendar-icon {
+      width: 60px;
+      height: 60px;
+      background-color: $siteblue;
+      text-align: center;
+
+      h3 {
+        font-family: Gils;
+        font-size: 22px;
+        color: white;
+        margin: auto;
+      }
+      h4 {
+        font-family: Gils;
+        font-size: 12px;
+        color: white;
+      }
+    }
+
+    .blog-img {
+      max-width: 980px;
+      min-height: 259px;
+      background-color: brown;
+      background-image: url(../images/blog.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-left: 80px;
+      margin-top: -60px;
+    }
+
+    .blog-text {
+      margin-left: 80px;
+      margin-top: 20px;
+      .blog-title {
+        font-size: 15px;
+        font-family: Gils;
+      }
+      .blog-paragraph {
+        width: 380px;
+        font-size: 13px;
+        font-family: Gils;
+        color: $siteblue;
+      }
+    }
+  }
+}
