@@ -11,3 +11,9 @@
   background-color: $siteblue;
   border-radius: 20px;
 }
+
+@mixin sendmsg {
+  width: 167px;
+  height: 60px;
+  background-color: $siteblue;
+}
